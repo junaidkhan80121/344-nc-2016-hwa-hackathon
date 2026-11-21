@@ -57,6 +57,9 @@ export default function HomePage() {
                 <Link href="#scent-finder" className="btn btn-outline btn-lg">
                   Find your scent
                 </Link>
+                <Link href="/scenttrail-pods" className="btn btn-outline btn-lg">
+                  Click here to get more details
+                </Link>
               </div>
             </div>
             <div className="hero-foot">
