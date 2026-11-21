@@ -14,6 +14,7 @@ import {
   Wind,
 } from "lucide-react";
 import ProductCard from "@/components/ProductCard";
+import ProductStory from "@/components/ProductStory";
 import ScentFinder from "@/components/ScentFinder";
 import Stars from "@/components/Stars";
 import { PRODUCTS, PRODUCT_MAP, TESTIMONIALS, formatPrice } from "@/lib/products";
@@ -128,6 +129,8 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      <ProductStory />
 
       <section className="section container">
         <div className="section-head">
