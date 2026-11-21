@@ -137,6 +137,9 @@ export default function HomePage() {
           </div>
           <div style={{ display: "flex", flexDirection: "column", alignItems: "flex-start", gap: 12 }}>
             <p>Start with the diffuser, a refill, or the bundle that gets you all the way there.</p>
+            <p className="product-desc" style={{ marginTop: 12, color: "var(--muted)", fontSize: 12.5, maxWidth: 500 }}>
+              ScentTrail Pods are compostable scent diffusers that slowly release fragrance into your room. Each pod lasts 45 days and is plant-based, plastic-free, and designed for a slower, more analog lifestyle. Choose from nine slow trails — from forest and broth to golden hour scents.
+            </p>
             <Link href="/shop" className="text-link">
               Shop everything <ArrowRight size={14} />
             </Link>
