@@ -128,9 +128,9 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
-
       <ProductStory />
+
+      </section>
 
       <section className="section container">
         <div className="section-head">
