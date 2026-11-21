@@ -33,45 +33,16 @@ export default function ProductStory() {
       {open && (
         <div
           style={{
-            position: "fixed",
-            inset: 0,
-            background: "rgba(0,0,0,0.6)",
-            display: "flex",
-            alignItems: "center",
-            justifyContent: "center",
-            zIndex: 1000,
-            padding: 20,
+            background: "var(--bg)",
+            maxWidth: 720,
+            maxHeight: "80vh",
+            overflowY: "auto",
+            padding: 32,
+            marginTop: 24,
           }}
         >
-          <div
-            style={{
-              background: "var(--bg)",
-              maxWidth: 720,
-              maxHeight: "80vh",
-              overflowY: "auto",
-              padding: 32,
-              position: "relative",
-            }}
-          >
-            <button
-              type="button"
-              onClick={() => setOpen(false)}
-              style={{
-                position: "absolute",
-                top: 16,
-                right: 16,
-                background: "none",
-                border: "none",
-                fontSize: 18,
-                cursor: "pointer",
-              }}
-              aria-label="Close"
-            >
-              ×
-            </button>
-            <div style={{ whiteSpace: "pre-wrap", fontSize: 13, color: "var(--muted)", lineHeight: 1.7 }}>
-              {FULL_TEXT}
-            </div>
+          <div style={{ whiteSpace: "pre-wrap", fontSize: 13, color: "var(--muted)", lineHeight: 1.7 }}>
+            {FULL_TEXT}
           </div>
         </div>
       )}
